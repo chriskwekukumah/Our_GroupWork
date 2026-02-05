@@ -12,7 +12,7 @@ summary_cars <- mtcars %>%
 
 # 3. Create a simple bar plot
 ggplot(summary_cars, aes(x = factor(cyl), y = avg_mpg)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_bar(stat = "identity", fill = "green") +
   labs(title = "Average MPG by Cylinder", x = "Cylinders", y = "Average MPG")
 
 
